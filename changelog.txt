@@ -1,0 +1,34 @@
+Quality Control - Changes
+---------------------------
+
+1.1.5 - 05 Oct 2010
+- Created a ticket form template tag.
+- Added the ability to assign users to tickets.
+- Added permission options to setings.
+- Other optimizations/code fixes.
+- State permalinks aren't hard coded in loop.php and single.php
+
+0.1.4 - 17 Sept 2010
+- Abstracted much of the ticket creation process to allow child themes the ability to save/remove extra data.
+
+0.1.3 - 06 Sept 2010
+- Updated for WP.org
+
+0.1.2 - 27 Aug 2010
+- Spelling fixes.
+- Added actions and filters for child themes.
+- Order taxonomies by name.
+- Added function_exists() so child themes can override functions.
+- Fixed/Updated style bugs.
+- Abstracted the relation of terms to objects when a ticket is created. Introduced quality_insert_ticket hook so other taxonomies can be added.
+- Added Milestone and Status terms to the "Right Now" dashboard widget.
+- Function to control who can create tickets.
+
+0.1.2 - 26 Aug 2010
+- wp_verify_nonce in tickets.php
+- Updated taxonomies to show UI.
+- Various HTML and Spelling fixes.
+
+0.1.2 - 25 Aug 2010
+
+- Initial Release
